@@ -1,6 +1,6 @@
 import Navbar from "../src/components/Navbar.js"
 import Slider from "../src/components/Slider.js"
-=======
+
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
 
       <Navbar />
       <Slider />
-=======
+
       Food Delivery App
 
     </div>
