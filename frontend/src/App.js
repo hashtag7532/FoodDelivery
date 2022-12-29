@@ -1,18 +1,33 @@
-import Navbar from "../src/components/Navbar.js"
-import Slider from "../src/components/Slider.js"
+import Home from "./screens/Home.jsx";
+import Login from "./screens/Login.jsx";
 
-import './App.css';
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    // <div>
 
-      <Navbar />
-      <Slider />
+    //   <Navbar />
+    //   <Slider />
+    //   <Card />
 
-      Food Delivery App
+    //   Food Delivery App
 
-    </div>
+    // </div>
+
+<Router>
+<div>
+  <Routes>
+    <Route exact path="/" element={<Home/>}/>
+    <Route exact path="/login" element={<Login/>}/>
+  </Routes>
+</div>
+</Router>
   );
 }
 
