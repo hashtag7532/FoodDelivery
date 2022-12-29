@@ -1,7 +1,14 @@
 import React from 'react'
+import Card from '../components/Card'
+import Navbar from '../components/Navbar'
+import Slider from '../components/Slider'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Navbar/>
+      <Slider/>
+      <Card/>
+    </div>
   )
 }
