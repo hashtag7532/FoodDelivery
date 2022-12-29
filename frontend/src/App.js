@@ -1,7 +1,7 @@
-import Navbar from "../src/components/Navbar.js"
-import Slider from "../src/components/Slider.js"
-
-import './App.css';
+import Navbar from "../src/components/Navbar"
+import Slider from "../src/components/Slider"
+import Login from "../src/screens/Login"
+import Register from "../src/screens/Register"
 
 function App() {
   return (
@@ -9,8 +9,7 @@ function App() {
 
       <Navbar />
       <Slider />
-
-      Food Delivery App
+      <Login />
 
     </div>
   );
